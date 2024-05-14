@@ -73,4 +73,6 @@ input[type="file"] {
 .inline{
   display: inline;
 }
-
+a{
+color: #dfdfe2;
+}
