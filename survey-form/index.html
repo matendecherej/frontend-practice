@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang= "eng">
+  <head>
+    <meta charset= "UTF-8">
+    <title>Survey Form</title>
+   <link rel= "stylesheet" href= "styles.css"/> 
+  </head>
+  <body>
+    <h1 id= "title">Survey Form</h1>
+    <p id= "description">Thank you for taking your time to help us improve.</p>
+    <form id= "survey-form">
+      <label for= "name" id= "name-label">Name:</label>
+      <input id= "name" type= "text" name= "name" placeholder= "Enter your name" required>
+      <label for= "email" id= "email-label">E-mail:</label><input id= "email" type= "email" name= "email" placeholder= "Enter your email"required>
+      <label for= "number" id= "number-label">Number:</label><input id= "number" type= "number" name= "number" placeholder= "Enter your favorite number" min= "1" max= "100" required>
+      <label>Most preffered department store:</label>
+      <select id= "dropdown" name= "dropdown">
+        <Option value= "">Select an option</Option>
+        <Option value= "Panda-Mart">Panda-mart</Option>
+        <Option value= "China-square">China-square</Option>
+        <Option value= "House of Leather">House of Leather</Option>
+      </select>
+      <fieldset>
+        <legend>How likely are you to recommend these stores:</legend> 
+        <label>Choose an option:</label>
+<input type="radio" name="option" value="option1">Very Likely
+<input type="radio" name="option" value="option2">Likely
+<input type="radio" name="option" value="option3">Unlikely
+      </fieldset>
+      <fieldset>
+        <legend>How far is your preffered department store:</legend>
+        <input type= "checkbox" id= "Selection1" name= "checkbox" value= "Walking distance">
+        <label for= "Walking distance">Walking distnce</label>
+         <input type= "checkbox" id= "Selection2" name= "checkbox" value= "Short driving distance">
+        <label for= "Short driving distance">Short driving distnce</label>
+           <input type= "checkbox" id= "Selection3" name= "checkbox" value= "Long distance">
+        <label for= "Long distance">Long distnce</label>
+ </fieldset>
+ <label for= "comments">Additional comments:</label>
+ <textarea id= "comments" name= "comments" placeholder= "Enter any additional comments"></textarea>
+ <button type="submit" id= "submit">Submit</button>
+    </form>
+  </body>
+</html>
