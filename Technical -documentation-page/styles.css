@@ -1,0 +1,28 @@
+@media (max-width: 767px) {
+    /* CSS rules for mobile/small screens */
+    body {
+      font-size: 14px;
+      color: palevioletred;
+      background: url('./boo.jpg');
+      font-family: Cambria;
+      margin: 0%;
+    }
+    body h1 {
+      color: black;
+    }
+    
+    #navbar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 5%;
+      overflow-y: auto;
+      background-color: palevioletred;
+    }
+    
+    #main-doc {
+      margin-left: 320px; /* Adjust the margin to account for the navbar width */
+      padding: 20px;
+    }
+  }
